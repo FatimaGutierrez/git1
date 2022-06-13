@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(65, 124, 88);
+}
+
+label.titles{
+    font-family: 'arial';
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.formDiv{
+    margin-left:5%;
+    margin-right: 5%;
+}
+
+.formLayout{
+    background-color: rgb(130, 189, 153);
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    position: relative;
+    width: 400px;
+    margin: 10px auto;
+    /* top: 50%; */
+}
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #3e5e38;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(0, 0, 0);
+}
+
+.button:hover {
+    background-color: #2a405a
+}
+
+.button:active {
+    background-color: #3e5e8e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
